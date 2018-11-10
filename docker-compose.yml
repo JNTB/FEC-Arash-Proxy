@@ -1,0 +1,10 @@
+version: "2.1"
+
+services:
+  fec-arash-proxy:
+    image: fec-arash-proxy
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
